@@ -1,7 +1,93 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #252624;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #57fabf, #66c4ff, #c580ef);
+  background-size: 900% 900%;
+
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  -o-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
 }
 
-h1 {
+  @-webkit-keyframes AnimationName {
+      0%{background-position:14% 0%}
+      50%{background-position:87% 100%}
+      100%{background-position:14% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:14% 0%}
+      50%{background-position:87% 100%}
+      100%{background-position:14% 0%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:14% 0%}
+      50%{background-position:87% 100%}
+      100%{background-position:14% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:14% 0%}
+      50%{background-position:87% 100%}
+      100%{background-position:14% 0%}
+  }
+
+
+
+h1,
+h4,
+p {
   text-align: center;
 }
+
+h1,
+h4 {
+  color: #fff;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+
+form {
+  width: 50%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+label[for="fileupload"] {
+  text-align: center;
+  display: block;
+  padding: 2% 8%;
+}
+
+input[type="file"] {
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: lightgrey;
+}
+
+input[type="file"],
+input[type="submit"] {
+  padding: 2% 8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  margin: 0 auto;
+  display: block;
+}
+
+input[type="submit"] {
+  margin-top: 2em;
+}
+
+
