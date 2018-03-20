@@ -68,26 +68,41 @@ label[for="fileupload"] {
 }
 
 input[type="file"] {
+  padding: 2% 8%;
   border: 1px solid grey;
   border-radius: 3px;
   background-color: lightgrey;
 }
 
 input[type="file"],
-input[type="submit"] {
-  padding: 2% 8%;
+button {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+button {
+  margin-top: 2em;
+  padding: 8px 11px;
+  background: #8BDAFF;
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-size: 1.01em;
+}
+
+button:hover {
+  background: #84CFF1;
+  cursor: pointer;
+}
+
+button:active {
+  color: #fff;
+}
 textarea {
   margin: 0 auto;
   display: block;
 }
 
-input[type="submit"] {
-  margin-top: 2em;
-}
+
 
 
