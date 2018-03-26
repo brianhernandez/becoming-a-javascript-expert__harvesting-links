@@ -98,11 +98,25 @@ button:hover {
 button:active {
   color: #fff;
 }
+
 textarea {
   margin: 0 auto;
   display: block;
 }
 
+.linksList {
+  margin: 1em auto;
+  width: 75%;
 
+}
 
+.linksListHeading {
+  text-align: center;
+  color: #252624;
+}
 
+.listHeading {
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
