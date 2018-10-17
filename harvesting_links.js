@@ -1,3 +1,5 @@
+'use strict';
+
 var harvestLinksButton = document.getElementById('submitButton'),
     formElement = document.getElementById('form');
 
